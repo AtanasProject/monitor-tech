@@ -1,0 +1,95 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Rowdies", cursive;
+}
+
+/* PARTNERS SECTION */
+.partners {
+  background-color: #c1e7e3;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 5em 0;
+}
+.students_info {
+  text-align: justify;
+  /* width: 60%; */
+  color: #000;
+}
+.section-title {
+  margin-bottom: 1em;
+  font-size: 4rem;
+  text-align: center;
+}
+.text {
+  font-size: 2.5rem;
+  line-height: 1.4em;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-style: italic;
+}
+.link:hover {
+  background-color: black;
+  color: skyblue;
+  
+}
+.partners_logo {
+}
+.logos {
+  width: 13rem;
+  height: auto;
+  margin: 2em 3em 2em 0;
+}
+
+/* REVIEWS SECTION */
+.reviews {
+  width: 90%;
+  margin: 0 auto;
+}
+.section_title1 {
+  margin: 1.5em;
+  font-size: 4rem;
+  text-align: center;
+}
+.container1 {
+  margin: 3em 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper {
+  margin: 0 3em 3em;
+  width: 18%;
+  font-size: 1.3rem;
+  text-align: left;
+}
+.student_review {
+  background-color: #e2f1f0;
+  padding: 1.5em;
+}
+.student_say {
+}
+.student_image {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.student_pic {
+  width: 5rem;
+  margin: 1em;
+  border-radius: 50%;
+}
