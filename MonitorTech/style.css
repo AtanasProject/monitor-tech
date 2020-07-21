@@ -1,4 +1,40 @@
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
   border: 0;
+  
+}
+
+/* Heading 2 font-size*/
+
+.h2-font-size{
+  font-size: 40px;
+}
+
+/* for Pricing Card on Enrollment section */
+.card-blur-effect{
+  background: rgba(255, 255, 255, 0.452);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
+}
+
+/* for heading on Pricing Card */
+.heading-card-custom{
+  background-color: rgba(95, 94, 94, 0.5);
+  font-size: 24px;
+}
+
+/* text on Pricing Card */
+.form-check-label{
+  font-size: 22px;
+}
+
+/* checkboxes on Pricing Card*/
+input[type=checkbox] {
+  transform: scale(1.2);
+  margin-top: 0;
+}
+
+/* button on Pricing Card*/
+.btn-custom-font{
+  font-size: 20px;
 }
