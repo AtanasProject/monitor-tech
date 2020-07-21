@@ -53,3 +53,41 @@ body {
   height: auto;
   margin: 2em 3em 2em 0;
 }
+/* REVIEWS SECTION */
+.reviews {
+  width: 90%;
+  margin: 0 auto;
+}
+.section_title1 {
+  margin: 1.5em;
+  font-size: 4rem;
+  text-align: center;
+}
+.container1 {
+  margin: 3em 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper {
+  margin: 0 3em 3em;
+  width: 18%;
+  font-size: 1.3rem;
+  text-align: left;
+}
+.student_review {
+  background-color: #e2f1f0;
+  padding: 1.5em;
+}
+.student_say {
+}
+.student_image {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.student_pic {
+  width: 5rem;
+  margin: 1em;
+  border-radius: 50%;
+}
